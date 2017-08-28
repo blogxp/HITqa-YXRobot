@@ -1,0 +1,11 @@
+flask==0.11.1
+sqlalchemy
+flask_sqlalchemy
+flask_script
+flask_migrate
+flask-migrate
+mysql-python
+flask-script
+werkzeug
+aiml
+
