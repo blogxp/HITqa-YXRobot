@@ -19,6 +19,10 @@
   
 5.另外，注册密码进行MD5加盐加密后存入数据库中
 
-6.运行hitqa.py文件可运行该项目
+6.在进行对话时，需要确认自己的aiml文件的存放位置，以及上传文件的存储位置，否则容易出错，具体如下图：
+![](https://github.com/AIRobotZhang/HITqa-YXRobot/raw/master/pic4.png) 
+![](https://github.com/AIRobotZhang/HITqa-YXRobot/raw/master/pic5.png) 
+
+7.运行hitqa.py文件可运行该项目
  
  
