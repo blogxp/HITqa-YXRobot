@@ -11,6 +11,7 @@
 2.需要说明的是在工大吧1.0版本中我们的首选方式就是创建一个虚拟环境 ,这个环境能够安装所有的东西，而此时我们的主Python不会受到影响。但是虚拟环境的迁移性不是很好，在工大吧2.0版本中，我考虑使用docker封装镜像的方法来进行web应用的封装，这样做的优点是迁移性较好，具体参考网址如下：http://www.runoob.com/docker/docker-tutorial.html、http://www.cnblogs.com/xiadongqing/p/6144265.html
 
 3.在我们的项目中需要涉及数据库的连接，那么在运行项目之前就需要修改config.py里的配置，包括HOSTNAME（本机ip）、DATABASE（数据库名称）、USERNAME（MySQL登录用户名）、PASSWORD（MySQL登录密码），具体如下图：
+![](https://github.com/AIRobotZhang/HITqa-YXRobot/raw/master/pic3.png) 
 
 4.在models.py文件中是数据模型，当增添新的数据模型时，需要将其重新映射到数据库中，所以在运行该项目之前需要进行映射，步骤如下：
   如果采用虚拟环境的方式，首先进入虚拟环境的命令环境下，其次，进入到manage.py项目文件目录下，依次在命令行窗口下执行如下两条命令：python manage.py db migrate 和 python manage.py db upgrade ,映射成功，可到数据库命令行窗口查看
