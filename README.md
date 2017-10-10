@@ -6,7 +6,7 @@
 新功能web页面展示(原功能页面可到web flask应用V1.0版本查看https://github.com/AIRobotZhang/WebFlask)
 ![](https://github.com/AIRobotZhang/HITqa-YXRobot/raw/master/pic2.png)  
 
-1.运行该项目之前，相应包以及一些扩展的安装，webflask应用V1.0版本(https://github.com/AIRobotZhang/WebFlask)都有介绍，在此不再赘述，需要引进的新包为aiml以及werkzeug
+1.运行该项目之前，相应包以及一些扩展的安装，webflask应用V1.0版本(https://github.com/AIRobotZhang/WebFlask) 都有介绍，在此不再赘述，需要引进的新包为aiml以及werkzeug
 
 2.需要说明的是web flask应用V1.0版本中我们的首选方式就是创建一个虚拟环境 ,这个环境能够安装所有的东西，而此时我们的主Python不会受到影响。但是虚拟环境的迁移性不是很好，在web flask应用V2.0版本中，我考虑使用docker封装镜像的方法来进行web应用的封装，这样做的优点是迁移性较好，具体参考网址如下：http://www.runoob.com/docker/docker-tutorial.html http://www.cnblogs.com/xiadongqing/p/6144265.html
 
